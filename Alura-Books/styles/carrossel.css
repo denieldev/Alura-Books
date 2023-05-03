@@ -79,7 +79,7 @@
 }
 
 .perfil__img {
-    height: 166px;
-    width: 295px;
-    overflow: hidden;
+    max-height: 166px;
+    max-width: 161px;
+    width: 145px;
 }
