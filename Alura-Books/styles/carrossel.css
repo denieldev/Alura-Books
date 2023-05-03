@@ -53,6 +53,7 @@
     font-weight: 700;
     font-size: 16px;
     color: var(--laranja); 
+    line-height: 24px;
 }
 
 .descrição__titulo-livro {
@@ -60,6 +61,7 @@
     font-size: 18px;
     color: var(--azul);
     margin: 0.5em 0;
+    line-height: 24px;
 }
 
 .botões__item {
@@ -76,31 +78,8 @@
     
 }
 
-.tópicos {
-    background: var(--azul-degrade);
-    padding: 1em;
-}
-
-.tópicos__visitados-recentemente{
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 300;
-    font-size: 24px;
-    color: var(--branco);
-    margin: 1em;
-}
-
-.tópicos__lista {
-    justify-content: center;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap; 
-    line-height: 55px;
-}
-
-.tópicos__link{
-    text-decoration: none;
-    color: var(--branco);
-    background: var(--laranja);
-    padding: 1em;
+.perfil__img {
+    height: 166px;
+    width: 295px;
+    overflow: hidden;
 }
