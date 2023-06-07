@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     display: inline-block;
     background-position: center;
+    margin: 10px;
 }
 
 .cabeçalho{
@@ -18,6 +19,7 @@
 .conteiner {
     display:flex ;
     align-items: center;
+    margin: 20px;
 }
 
 .conteiner__imagem {
